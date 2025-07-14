@@ -44,10 +44,14 @@ module.exports = {
        'gray-10': '#F0F0F0',
 
        'black' : '#000000',
-       'white' : '#FFFFFF'
-
-        
+       'white' : '#FFFFFF',
       },
+      boxShadow: {
+        'custom-shadow': '6px 6px 6px 0px rgba(0, 0, 0, 0.25)',
+      },
+       backgroundImage: {
+        'black-fade': 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 94.71%)',
+      }
     },
   },
   plugins: [
@@ -177,7 +181,7 @@ module.exports = {
           letterSpacing: '-0.6px',
         },
         '.font-glyph16-R': {
-          '@apply font-default font-medium': {},
+          '@apply font-default font-normal': {},
           fontSize: '16px',
           lineHeight: '24px',
           letterSpacing: '-0.6px',
