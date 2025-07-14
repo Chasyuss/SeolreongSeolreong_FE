@@ -249,7 +249,7 @@ module.exports = {
           letterSpacing: '-0.4px',
         },
         '.font-glyph11-R': {
-          '@apply font-default font-': {},
+          '@apply font-default font-medium': {},
           fontSize: '11px',
           lineHeight: '14px',
           letterSpacing: '-0.4px',
