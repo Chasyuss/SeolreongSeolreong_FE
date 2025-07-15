@@ -24,7 +24,7 @@ const Home = () => {
           </div>
 
           <div className="flex h-[380px] w-full flex-col items-start justify-end gap-2 bg-black-fade px-3 pb-5 rounded-b-3xl shadow-custom-shadow">
-            <div className="text-white font-glyph28-B ">
+            <div className="text-white font-glyph28-B text-shadow-sm">
               {' '}
               월간장수산 7월: 장안산
             </div>
@@ -55,9 +55,9 @@ const Home = () => {
             <div className="flex flex-col">
               <div className="flex flex-row items-center gap-1 px-[2px]">
                 <Circle />
-                <div className="text-white font-glyph16-R">트레일빌리지</div>
+                <div className="text-white font-glyph16-R text-shadow-sm">트레일빌리지</div>
               </div>
-              <div className="text-white font-glyph16-R">
+              <div className="text-white font-glyph16-R text-shadow-sm">
                 경상남도 함양군 함양읍 삼휴길 200
               </div>
             </div>
